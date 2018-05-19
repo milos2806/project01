@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    body {
+        width: 100%
+    }
+}
+
+@media (max-width:768px) {
+    #article {
+        width: 100%;
+    }
+    #aside {
+        width: 100%;
+        background-color: #ffff00;
+    }
+}
+@media (max-width:480px) {
+    #nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        width: 100%; 
+        text-align: left;    }
+}

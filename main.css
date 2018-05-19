@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica;
+
+
+}
+header { 
+    background-color: #ff6666 ;
+    padding: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+#nav {
+    background-color: #00ffff;
+    /*padding: 20px;*/
+
+}
+nav ul {
+    margin: 0px;
+    padding-left: 0px;
+
+}
+nav ul li {
+    display: inline-block
+}
+nav ul li a {
+    width: 100px ;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+nav ul li a:hover {
+    background-color: #ccc
+}
+
+#main {
+    /*background-color: #990000*/
+}
+
+#article {
+    /*background-color: #e6e6f9;*/
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 10px;
+}
+#aside {
+    /*background-color: yellow;*/
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    padding: 10px;
+
+}
+footer {
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+h1 {
+    color: #1069f3 ;  
+    text-decoration: underline ;
+
+}   
+h1, h2, h3s {
+    color: #1069f3 ;  
+    text-decoration: underline ; 
+    font-size: 20px ;
+
+}
+h1 {
+    font-size: 30px;
+}
+
+.yellow-background {
+    background-color: #ffff00
+}
+.green-back {
+    background-color: #009933; 
+}
+.vazno {
+    margin: 20px ;
+    padding: 15px ;
+    width: 400px ;
+    border: 1px solid black
+}
+
+
+#naslov {
+    color: #3333ff; 
+    background-color: #00ffff
+
+}
+.sidebar {
+    color: red;
+
+}
+
+ul.sidebar {
+    font-size: 14px;
+    padding-left: 0px;
+    width: 400px;
+}
+
+ul.sidebar  li{
+    list-style: none;
+    background-color: #ccc; 
+}
+ul.sidebar li ul {
+    padding-left: 0px;
+
+}
+ul.sidebar li ul li {
+    background-color: #eee;
+
+}
+a{
+    color: red;
+}
+a:hover {
+    color: #009933;
+    background-color: #ffff00;
+}
+
+h2:hover{
+    background-color: #ffff00;
+}
+a:visited {
+    color: #990000;
+}
+table{
+    border-collapse: collapse;
+}
+
+table tr {
+    border: 1px solid black; 
+}
+table thead tr th{
+    background-color: #ccc;
+}
+table tbody tr:hover td {
+    background-color: green;
+}
+table tbody tr:last-child {
+    color: #0000ff
+}
+table tbody tr:nth-child(even) {
+    background-color: #ccccff;
+}
+
