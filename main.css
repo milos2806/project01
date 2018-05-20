@@ -150,7 +150,7 @@ table thead tr th{
     background-color: #ccc;
 }
 table tbody tr:hover td {
-    background-color: green;
+    background-color: blue;
 }
 table tbody tr:last-child {
     color: #0000ff
